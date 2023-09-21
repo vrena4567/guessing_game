@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: darkolivegreen">
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+</head>
+<body>
+<h1 style="color: sienna">nice game</h1>
+<h1 style="color: whitesmoke">You can play again here:</h1>
+<form th:action="@{/game/new_game}" method="post">
+  <button type="submit">PLAY</button>
+</form>
+</body>
+</html>
